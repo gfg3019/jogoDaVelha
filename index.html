@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JOGO DA VELHA</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    
+    <aside>
+        <span>Jogador:</span>
+        <h5 id="selected-player"></h5>
+        <span>Vencedor:</span>
+        <h5 id="winner"></h5>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </aside>
+    
+    <section class="board">
+        <div class="line">
+            <div id="item-1" class="block" onclick=" chooseSquare(this.id)">-</div>
+            <div id="item-2"class="block" onclick=" chooseSquare(this.id)">-</div>
+            <div id="item-3" class="block" onclick=" chooseSquare(this.id)">-</div>
+        </div>
+        <div class="line">
+            <div id="item-4" class="block" onclick=" chooseSquare(this.id)">-</div>
+            <div id="item-5" class="block" onclick=" chooseSquare(this.id)">-</div>
+            <div id="item-6" class="block" onclick=" chooseSquare(this.id)">-</div>
+        </div>
+        <div class="line">
+            <div id="item-7" class="block" onclick=" chooseSquare(this.id)">-</div>
+            <div id="item-8" class="block" onclick=" chooseSquare(this.id)">-</div>
+            <div id="item-9" class="block" onclick=" chooseSquare(this.id)">-</div>
+        </div>
+    
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

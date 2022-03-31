@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background-color: #7FFFD4;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #EEE9E9;
+    text-shadow: 0 0 10px #696969;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 40px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.block{
+    background-color: #2F4F4F;
+    padding: 50px;
+    cursor: pointer;
+    color: #2F4F4F;
+    border-radius: 8px;
+    box-sizing: content-box;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    float: left;
+    margin: 100px 0 0 200px;
+    box-sizing: border-box;
+
+}
+aside span{
+    font-size: 20px;
+    color: #2F4F4F;
+}
+aside h5{
+    color: #2F4F4F;
+    font-size: 1rem;
+}
+
+button{
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2F4F4F;
+    border: none;
+    border-radius: 10px;
+    color: #EEE9E9;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+button:hover{
+    opacity: 1;
+}
